@@ -1,13 +1,19 @@
 <script setup lang="ts">
-// a completer
+import { RouterView } from 'vue-router'
+import HeaderPage from '@/components/HeaderPage.vue'
+import FooterPage from '@/components/FooterPage.vue'
+
+
 </script>
 
 <template>
-  <header>
-    
-  </header>
-
+  <HeaderPage />
   <main>
-  
+    <RouterView />
+
+   
+
   </main>
+  
+  <FooterPage />
 </template>
