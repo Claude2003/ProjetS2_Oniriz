@@ -1,8 +1,16 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  safelist: ['router-link-active'],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        jost: ['Jost', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+      },
+
+    },
   },
-  plugins: []
+  plugins: [],
 }
