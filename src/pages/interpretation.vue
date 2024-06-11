@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import Hero from '@/components/Hero.vue'
+import Hero from '../components/Hero.vue'
 const userMessage = ref('')
 const userEmotion = ref('')
 const userAmbiance = ref('')

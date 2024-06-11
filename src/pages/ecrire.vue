@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import Hero from '@/components/Hero.vue'
-import IconDate from '@/components/icons/IconDate.vue'
-import vector from '@/components/icons/Vector.vue'
-import Button from '@/components/Button.vue'
+import Hero from '../components/Hero.vue'
+import IconDate from '../components/icons/IconDate.vue'
+import vector from '../components/icons/Vector.vue'
+import Button from '../components/Button.vue'
 const dreamText = ref<string>('');
 const dreamClarity = ref<string>('');
 const dreamAmbiance = ref<string>('');

@@ -1,5 +1,5 @@
 <script>
-import oniriz from '@/components/icons/Oniriz.vue';
+import oniriz from '../components/icons/Oniriz.vue';
 import PocketBase from 'pocketbase';
 
 import { ref } from 'vue';

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Iconphoto from '@/components/icons/photo.vue'
+import Iconphoto from '../components/icons/photo.vue'
 import { ref } from 'vue'
 
 

@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { dreams } from '@/data';
-import Hero from '@/components/Hero.vue'
-import Card from '@/components/CardPage.vue'
-import IconFiltre from '@/components/icons/filtre.vue'
+import { dreams } from '../data';
+import Hero from '../components/Hero.vue'
+import Card from '../components/CardPage.vue'
+import IconFiltre from '../components/icons/filtre.vue'
 
 
 // Données pour les slides du carrousel

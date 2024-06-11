@@ -35,12 +35,12 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import IconGoogle from '@/components/icons/google.vue'
-import IconFacebook from '@/components/icons/Iconfacebook.vue'
-import IconEmail from '@/components/icons/email.vue'
-import oniriz from '@/components/icons/Oniriz.vue'
+import IconGoogle from '../components/icons/google.vue'
+import IconFacebook from '../components/icons/Iconfacebook.vue'
+import IconEmail from '../components/icons/email.vue'
+import oniriz from '../components/icons/Oniriz.vue'
 import { useRouter } from 'vue-router';
-import { auth, googleProvider, facebookProvider } from '@/firebase.js';
+import { auth, googleProvider, facebookProvider } from '/firebase.js';
 import { signInWithPopup, AuthError } from 'firebase/auth';
 
 const router = useRouter();

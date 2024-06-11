@@ -1,6 +1,6 @@
 <script  lang="ts">
 import { RouterView } from 'vue-router'
-import oniriz from '@/components/icons/Oniriz.vue'
+import oniriz from '../components/icons/Oniriz.vue'
 
 import PocketBase from 'pocketbase';
 import { ref } from 'vue';
@@ -45,7 +45,7 @@ export default {
 <oniriz />
 </div>
 
-        <form class="space-y-6 sm:mx-auto m-6 sm:w-full text-white sm:max-w-sm mt-20 mb-20 m-8" action="#" method="POST">
+        <form class="space-y-6 sm:mx-auto m-6 sm:w-full text-white sm:max-w-sm mt-20 mb-20 " action="#" method="POST">
 
           <div>
             <label for="email" class="block text-sm  leading-8 font-bold text-white">E-mail </label>

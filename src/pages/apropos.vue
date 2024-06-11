@@ -2,10 +2,10 @@
 import { ref } from 'vue'
 import { RouterView } from 'vue-router'
 import { RouterLink } from 'vue-router'
-import oniriz from '@/components/icons/Oniriz.vue'
-import IconFacebook from '@/components/icons/facebook.vue'
-import IconInstagram from '@/components/icons/instagram.vue'
-import IconTwitter from '@/components/icons/twitter.vue'
+import oniriz from '../components/icons/Oniriz.vue'
+import IconFacebook from '../components/icons/facebook.vue'
+import IconInstagram from '../components/icons/instagram.vue'
+import IconTwitter from '../components/icons/twitter.vue'
 
 </script>
 
